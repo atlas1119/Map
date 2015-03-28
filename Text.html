@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <link href="jslib/atlas.css" rel="stylesheet" type="text/css" />
+    <script src="jslib/Global.js" type="text/javascript"></script>
+
+    <script src="jslib/util/Util.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/Class.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/Bounds.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/Browser.js" type="text/javascript"></script>
+    
+    <script src="jslib/BaseTypes/LatLng.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/LatLngBounds.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/Point.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/Handler.js" type="text/javascript"></script>
+
+    <script src="jslib/BaseTypes/Label.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/LineUtil.js" type="text/javascript"></script>
+    <script src="jslib/BaseTypes/PolyUtil.js" type="text/javascript"></script>
+
+    <script src="jslib/Events.js" type="text/javascript"></script>
+    
+    
+    
+    <script src="jslib/util/DomUtil.js" type="text/javascript"></script>
+    <script src="jslib/util/MouseEventUtil.js" type="text/javascript"></script>
+    <script src="jslib/util/DraggableUtil.js" type="text/javascript"></script>
+    <script src="jslib/util/TransformationUtil.js" type="text/javascript"></script>
+    <script type="text/javascript" src="jslib/util/Ajax.js"></script>
+
+    <script src="jslib/crs/CRS.js" type="text/javascript"></script>
+    <script src="jslib/crs/ProjectionLatLng.js" type="text/javascript"></script>
+    <script src="jslib/crs/ProjectionSphericalMercator.js" type="text/javascript"></script>
+    <script src="jslib/crs/CRSEPSG3857.js" type="text/javascript"></script>
+
+    <script src="jslib/Map.js" type="text/javascript"></script>
+    <script src="jslib/map/MapDrag.js" type="text/javascript"></script>
+    <script src="jslib/map/ScrollZoom.js" type="text/javascript"></script>
+
+    <script src="jslib/vectorlayer/PathCanvas.js" type="text/javascript"></script>
+    <script src="jslib/vectorlayer/PointsCanvas.js" type="text/javascript"></script>
+    <script src="jslib/vectorlayer/PolylineCanvas.js" type="text/javascript"></script>
+    <script src="jslib/vectorlayer/PolygonCanvas.js" type="text/javascript"></script>
+    <script src="jslib/vectorlayer/RectangleCanvas.js" type="text/javascript"></script>
+    
+    <script src="jslib/vectorlayer/draw/DrawShape.js" type="text/javascript"></script>
+    <script src="jslib/vectorlayer/draw/DrawRectangle.js" type="text/javascript"></script>
+    
+   
+    <script type="text/javascript" src="jslib/control/Control.js"></script>
+    <script type="text/javascript" src="jslib/control/ZoomControl.js"></script>
+    <script type="text/javascript" src="jslib/control/LayersControl.js"></script>
+    <script type="text/javascript" src="jslib/control/SelectToolBar.js"></script>
+    
+    
+    <script type="text/javascript" src="jslib/CanvasMain.js"></script></head>
+<body>
+
+	<div id="map" style="width: 900px; height: 900px; border: 1px solid #ccc"></div>
+
+	<script type="text/javascript">
+
+	    //var tiles = new Atlas.TileCanvasLayer();
+	    //var bounds = new Atlas.LatLngBounds(route);
+	    new Atlas.CanvasMain().initMap("map");
+//        Atlas.Ajax.get("http://localhost:8087/CanvasMapServer/Atlas/Atlas/canvas/map/26",
+//            function(xhr,data){
+            
+//                 var jsondata = data;
+//                 var util = new Atlas.DataHandle();
+//                 var dataStr = util.zip_inflate(jsondata);
+//                 alert(dataStr);
+//        });
+	    
+        
+	    //var data = util.zip_inflate();
+//	    var vector = new Atlas.PolylineCanvas(route, {
+//	        marker: true,
+//	        name:"光谷大道"
+//        });
+
+//	    var point = new Atlas.PolygonCanvas(route, {
+//	        marker: true,
+//	        name:"光谷国际"
+//	    });
+
+	    //var map = new Atlas.Map('map', { layers: [], maxBounds: null });
+	    //map.addControl(new Atlas.ZoomControl());
+		
+	</script>
+</body>
+</html>
